@@ -1,0 +1,25 @@
+1° Em uma competição os jurados precisam remover a maior nota, a menor e calcular a média das restantes.
+2° Crie uma lista para salvar as notas atualizadas dos atletas.
+
+Nesse projeto foi onde iniciei meus estudos em Ciência de dados.
+
+notas = []
+
+for i in range(1,6):
+  nota = float(input(f'Nota da manobra {i}: '))
+  notas.append(nota)
+
+print('Notas do atleta', notas)
+
+notasatt = list(notas)
+
+notas.remove(max(notasatt))
+notas.remove(min(notasatt))
+
+nova_nota = notas
+
+print('Notas atualizadas', nova_nota)
+
+media = sum(nova_nota) / len(nova_nota)
+
+print(f'A médias das notas é: {media:.2f}')
