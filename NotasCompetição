@@ -1,7 +1,11 @@
-1° Em uma competição os jurados precisam remover a maior nota, a menor e calcular a média das restantes.
-2° Crie uma lista para salvar as notas atualizadas dos atletas.
+#1° Em uma competição os jurados precisam remover a maior nota, a menor e calcular a média das restantes.
+#2° Crie uma lista para salvar as notas atualizadas dos atletas.
 
-Nesse projeto foi onde iniciei meus estudos em Ciência de dados.
+#Obs: Nesse projeto foi interresante para eu ter um conhecimento melhor de laços e listas, usei também ferramentas para retirar a maior nota e a menor nota.
+     Como eu tinha conhecimento em C#, a lógica foi uma forma fácil de pensar e um pouco mais complicado de colocar na prática, porém, depois de alguns testes 
+     fui entendendo melhor a ferramenta e me adaptei bem, consegui resolver o problema e ter um bom conhecimento.
+
+#Nesse projeto foi onde iniciei meus estudos em Ciência de dados.
 
 notas = []
 
